@@ -40,7 +40,7 @@ public class AccountTest {
         }
         
         
-        sa0001.saldo += sa0001.calInterest();
+        sa0001.saldo += sa0001.calcInterest();
         System.out.println("saldo setelah bunga : " + sa0001.saldo);
 
         System.out.println(" ");
@@ -61,10 +61,11 @@ public class AccountTest {
             System.exit(0);
         }
         
-        sa0002.saldo += sa0002.calInterest();
+        sa0002.saldo += sa0002.calcInterest();
         System.out.println("saldo setelah bunga : " + sa0002.saldo);
 
 
     
 }
 }
+
