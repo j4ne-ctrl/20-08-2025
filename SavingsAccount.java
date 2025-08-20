@@ -25,10 +25,11 @@ public class SavingsAccount {
         }
     }
 
-    public double calInterest(){
+    public double calcInterest(){
         double interest = saldo * bunga/12;
         return interest;
     }
         
 }
+
 
